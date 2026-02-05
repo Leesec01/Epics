@@ -8,14 +8,14 @@ import EventCard from './EventCard';
 
 const technicalEvents = [
   {
-    title: 'Technical Quiz',
+    title: 'Mind Flayer',
     description: 'Test your knowledge in cybersecurity, programming, and emerging technologies. Battle against the best minds in this intense quiz competition.',
     coordinator: 'Dr. Arun Kumar',
     icon: Brain,
     registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSequWKxGlUIpEu28IpfHHlJfJM-iMN6KqC6OacHo_3LkMBEbQ/viewform?usp=publish-editor',
   },
   {
-    title: 'Technical Paper Writing',
+    title: 'Paper Presentation',
     description: 'Present your research papers on cutting-edge topics in cyber security, AI, blockchain, and more. Showcase your academic excellence.',
     coordinator: 'Prof. Priya Sharma',
     icon: FileText,
@@ -39,14 +39,14 @@ const technicalEvents = [
 
 const nonTechnicalEvents = [
   {
-    title: 'Film Cracker',
+    title: 'Cut & Capture',
     description: 'Identify movies, decode dialogues, and prove your cinematic knowledge. A fun-filled event for movie enthusiasts.',
     coordinator: 'Ms. Kavitha S',
     icon: Film,
-    registerUrl: '#',
+    registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScGWcaIjonK__eEBRoWNMRKHSij73vy6VFgeWA7bamK39TTbg/viewform?usp=publish-editor',
   },
   {
-    title: 'Treasure Hunt',
+    title: 'Mystery Trail',
     description: 'Embark on an exciting adventure across the campus. Solve clues, crack codes, and race to find the hidden treasure.',
     coordinator: 'Mr. Suresh M',
     icon: Map,
@@ -176,3 +176,4 @@ const EventsSection = () => {
 };
 
 export default EventsSection;
+
