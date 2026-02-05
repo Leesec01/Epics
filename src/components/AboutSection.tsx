@@ -3,38 +3,7 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Shield, Users, Trophy, Lightbulb, Target, Rocket } from 'lucide-react';
 
-const features = [
-  {
-    icon: Shield,
-    title: 'Cyber Excellence',
-    description: 'Pioneering cybersecurity education with cutting-edge curriculum and industry partnerships.',
-  },
-  {
-    icon: Users,
-    title: 'Expert Faculty',
-    description: 'Learn from industry professionals and academic experts in the field of cyber security.',
-  },
-  {
-    icon: Trophy,
-    title: 'Award Winning',
-    description: 'Recognized for excellence in security research, competitions, and student achievements.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Innovation Hub',
-    description: 'State-of-the-art labs and research facilities fostering next-generation security solutions.',
-  },
-  {
-    icon: Target,
-    title: 'Industry Ready',
-    description: 'Comprehensive training programs preparing students for real-world cybersecurity challenges.',
-  },
-  {
-    icon: Rocket,
-    title: 'Future Forward',
-    description: 'Embracing emerging technologies and methodologies in the ever-evolving security landscape.',
-  },
-];
+
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -138,3 +107,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
