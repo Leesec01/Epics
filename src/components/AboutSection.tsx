@@ -5,7 +5,7 @@ import { Shield, Users, Trophy, Lightbulb, Target, Rocket } from 'lucide-react';
 
 
 
-cconst AboutSection = () => {
+const AboutSection = () => {
   // disable rendering temporarily
   return null;
 
@@ -35,3 +35,4 @@ cconst AboutSection = () => {
 };
 
 export default AboutSection;
+
